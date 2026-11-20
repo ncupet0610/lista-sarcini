@@ -82,3 +82,48 @@ li.terminata span {
 .buton-sterge:hover {
   background-color: #c03f3f;
 }
+
+/* Câmpul care apare când editezi o sarcină */
+.camp-editare {
+  flex: 1;
+  padding: 6px;
+  font-size: 16px;
+}
+
+/* Bara de jos: contorul în stânga, filtrele în dreapta */
+.bara-jos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+#contor {
+  color: #666;
+  font-size: 14px;
+}
+
+.filtre {
+  display: flex;
+  gap: 6px;
+}
+
+/* Butoanele de filtru sunt gri... */
+.filtru {
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: #e4e7ec;
+  color: #333;
+}
+
+.filtru:hover {
+  background-color: #d0d5dd;
+}
+
+/* ...iar cel ales este albastru */
+.filtru.activ {
+  background-color: #4a7bd0;
+  color: white;
+}
