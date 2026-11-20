@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f4f7;
+  margin: 0;
+  padding: 40px 16px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4a7bd0;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3a64ad;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+li span {
+  flex: 1;
+  font-size: 16px;
+}
+
+/* Sarcinile terminate sunt tăiate și gri */
+li.terminata span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.buton-sterge {
+  background-color: #e05555;
+  padding: 6px 10px;
+  font-size: 14px;
+}
+
+.buton-sterge:hover {
+  background-color: #c03f3f;
+}
